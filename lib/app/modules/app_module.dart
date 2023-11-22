@@ -15,6 +15,6 @@ class AppModule extends Module {
 
   @override
   void routes(RouteManager r) {
-    r.module(BookscaseModuleRoutes.booksCaseMain, module: BookscaseModule());
+    r.module(BookscaseModuleRoutes.bookscaseMain, module: BookscaseModule());
   }
 }

@@ -1,4 +1,10 @@
 class BookscaseModuleRoutes {
-  static String booksCaseMain = '/';
-  static String booksCaseModule = '/bookscase-module/';
+  static String bookscaseMain = '/';
+  static String bookscaseEbook = '/ebook-page/';
+  static String bookscaseModule = '/bookscase-module/';
+
+  static String subRoute(String route) {
+    route = '/bookscase-module/${route.replaceFirst('/', '')}';
+    return route;
+  }
 }
