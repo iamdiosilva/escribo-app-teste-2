@@ -1,16 +1,24 @@
-# escribo_app_teste_2
+# Escribo Technical Test #2
 
-A new Flutter project.
+## 🧪 Tecnologias
 
-## Getting Started
+- 🎯 [Dart](https://dart.dev/)
+- 🚀 [Flutter](https://docs.flutter.dev/get-started/install)
 
-This project is a starting point for a Flutter application.
+## 💻 Iniciando
 
-A few resources to get you started if this is your first Flutter project:
+Este projeto é executado na versão 3.16 do Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📥 Clonar o Aplicativo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. 🔧 Instale o [Dart](https://dart.dev/).
+2. 🔧 Instale o [Flutter](https://docs.flutter.dev/get-started/install).
+3. 📦 Clone o repositório:
+   - `git clone https://github.com/iamdiosilva/escribo-app-teste-2.git`
+4. 🖥️ Abra o terminal no diretório do projeto.
+5. ⚙️ Execute `flutter pub get`.
+6. 🚀 Seu projeto está pronto para ser executado.
+
+### 📲 Download do APK
+
+- [Baixe o APK aqui](https://drive.google.com/file/d/1zW1VSblFHFOeFGwG20qh08zu31VgLj3L/view?usp=sharing)
