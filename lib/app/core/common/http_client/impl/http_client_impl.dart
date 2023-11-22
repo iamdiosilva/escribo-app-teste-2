@@ -34,9 +34,12 @@ class HttpClientImpl implements IHttpClient {
           options: options,
         );
         return HttpResponse(
-            statusCode: response.statusCode, data: response.data);
+          statusCode: response.statusCode,
+          data: response.data,
+        );
       case RequestType.DOWNLOAD:
-        final response = await dioClient.download(path, savePath);
+        final response =
+            await dioClient.download(path, savePath, deleteOnError: true);
         return HttpResponse(
             statusCode: response.statusCode, data: response.data);
       default:

@@ -18,4 +18,12 @@ class EBookModel extends EBookEntity {
       downloadUrl: json['download_url'],
     );
   }
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'title': title,
+        'author': author,
+        'cover_url': coverUrl,
+        'download_url': downloadUrl,
+      };
 }
